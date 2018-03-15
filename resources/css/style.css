@@ -9,9 +9,21 @@ html {}
 a {
 	text-decoration: none;
 }
+
 h2 {
 	font-style: bold;
 }
+
+.container {
+	width: 100%;
+	height: auto;
+}
+
+img.big {
+	width: 60%;
+	height: auto;
+}
+
 /* Nav section */
 
 nav {
@@ -34,17 +46,49 @@ nav li {
 
 .banner {
 	background-color: grey;
-	width: 100%;
+}
+.banner img {
+		margin: 32px 24px;
 }
 
-.banner img {
-	width: 60%;
-	margin: 32px 24px;
-}
-.learn.flex{
+.learn.flex {
 	flex-direction: column;
 	justify-content: center;
 }
+
 button {
 	padding: 8px;
+}
+
+/* Information section */
+
+.information ul {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.information li {
+	display: flex;
+	flex-direction: row;
+}
+.information ul img {
+	height: auto;
+	width: 35%;
+	margin: 16px;
+}
+
+.information-text {
+	flex-direction: column;
+	justify-content: center;
+	margin: 8px auto;
+	width: 65%;
+}
+.information-feature {
+		margin: 32px 24px;
+}
+h2.information-feature  {
+	margin-top: 32px;
+	margin-bottom: 24;
 }
