@@ -9,17 +9,42 @@ html {}
 a {
 	text-decoration: none;
 }
-
+h2 {
+	font-style: bold;
+}
 /* Nav section */
 
 nav {
 	justify-content: space-between;
+	align-content: center;
+	height: 64px;
+	margin: 16px 24px;
+}
+
+.logo {
+	height: 32px;
 }
 
 nav li {
 	display: inline;
+	margin-left: 16px;
 }
 
 /* Banner section */
 
-banner {}
+.banner {
+	background-color: grey;
+	width: 100%;
+}
+
+.banner img {
+	width: 60%;
+	margin: 32px 24px;
+}
+.learn.flex{
+	flex-direction: column;
+	justify-content: center;
+}
+button {
+	padding: 8px;
+}
