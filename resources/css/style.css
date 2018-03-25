@@ -1,6 +1,4 @@
-/* Universal styles */
-
-$font-family-sans-serif : // Safari for OS X and iOS (San Francisco)
+$font-family-sans-serif: // Safari for OS X and iOS (San Francisco)
 -apple-system, // Chrome < 56 for OS X (San Francisco)
 BlinkMacSystemFont, // Windows
 "Segoe UI", // Android
@@ -11,8 +9,10 @@ sans-serif, // Emoji fonts
 "Apple Color Emoji",
 "Segoe UI Emoji",
 "Segoe UI Symbol" !default;
+/* Universal styles */
+
 html {
-	/* 	font-size: 16px; */
+	font-size: 16px;
 }
 
 .flex {
@@ -39,13 +39,22 @@ video {
 nav {
 	justify-content: space-between;
 	align-content: center;
-	height: 64px;
-	margin: 16px 24px;
+	height: 4rem;
+	margin: 1rem 1.5rem;
 }
 
 .logo {
-	height: 32px;
-	
+	display: inline-flex;
+	flex-direction: row;
+	align-content: center;
+}
+
+.logo img {
+	height: 2rem;
+}
+
+#logo-text {
+	height: 1rem;
 }
 
 #grey-color {
@@ -54,7 +63,7 @@ nav {
 
 nav li {
 	display: inline;
-	margin-left: 16px;
+	margin-left: 1rem;
 }
 
 /* Jumbotron section */
@@ -64,7 +73,7 @@ nav li {
 }
 
 .jumbotron img {
-	margin: 32px 24px;
+	margin: 2rem 1.5rem;
 }
 
 .learn.flex {
@@ -73,7 +82,7 @@ nav li {
 }
 
 button {
-	padding: 8px;
+	padding: .5rem;
 }
 
 /* Information section */
@@ -92,30 +101,30 @@ button {
 .information ul img {
 	height: auto;
 	width: 35%;
-	margin: 16px;
+	margin: 1rem;
 }
 
 .information-text {
 	flex-direction: column;
 	justify-content: center;
-	margin: 8px auto;
+	margin: .5rem auto;
 	width: 65%;
 }
 
 .information-feature {
-	margin: 32px 24px;
+	margin: 2rem 1.5rem;
 }
 
 .information-feature h2 {
-	margin-top: 32px;
-	margin-bottom: 24px;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
 }
 
 /* Courses section */
 
 .courses {
 	background-color: grey;
-	padding: 32px 72px;
+	padding: 2rem 4.5rem;
 }
 
 .courses-boxes {
@@ -125,16 +134,16 @@ button {
 
 .courses h2 {
 	text-align: center;
-	margin-bottom: 32px;
+	margin-bottom: 2rem;
 }
 
 .course-box {
 	background-color: white;
-	margin: 16px;
+	margin: 1rem;
 }
 
 .course-box-text {
-	padding: 16px 16px 24px;
+	padding: 1rem 1rem 1.5rem;
 	/* 	display: flex;
 	flex-flow: column wrap; */
 }
