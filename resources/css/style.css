@@ -67,11 +67,11 @@ nav li {
 /* Jumbotron section */
 
 .jumbotron {
-	background-color: grey;
+/* 	background-color: grey; */
 }
 
 .jumbotron img {
-	margin: 2rem 1.5rem;
+	paddi: 2rem 1.5rem;
 }
 
 .learn.flex {
@@ -81,7 +81,11 @@ nav li {
 
 button {
 	padding: .5rem;
+	background-color: #373737;
+}
+button a {
 	color: white;
+	
 }
 
 /* Information section */
