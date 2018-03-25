@@ -19,10 +19,6 @@ html {
 	display: flex;
 }
 
-a {
-	text-decoration: none;
-}
-
 .container-fluid {
 	width: 100%;
 	height: auto;
@@ -42,7 +38,9 @@ nav {
 	height: 4rem;
 	padding: 1rem 1.5rem;
 }
-
+nav a {
+	color: black;
+}
 .logo {
 	display: inline-flex;
 	flex-direction: row;
@@ -83,6 +81,7 @@ nav li {
 
 button {
 	padding: .5rem;
+	color: white;
 }
 
 /* Information section */
