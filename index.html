@@ -45,7 +45,9 @@
 	<div class="jumbotron container-fluid flex">
 		<img class="container" src="./resources/images/banner.jpg" alt="">
 		<div class="learn flex">
-			<h1 class="display-4"><stronger>Learn something<br>new everyday</stronger></h1>
+			<h1 class="display-4">
+				<stronger>Learn something<br>new everyday</stronger>
+			</h1>
 			<p class="lead">We don't need any guidelines or formats.<br>All we need to do is just let it flow right out of us.</p>
 			<button type="button" class="btn btn-default btn-lg"><a href="#start">Start here</a></button></div>
 	</div>
@@ -56,8 +58,8 @@
 		<div class="information-feature">
 			<img src="./resources/images/information-main.jpg" alt="">
 			<blockquote class="blockquote d-flex flex-column">
-			<h2>It doesn't hurt to keep practicing</h2>
-			<p class="text-wrap">“The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough,<br>you can do. Anything. As long as you believe.”</p>
+				<h2>It doesn't hurt to keep practicing</h2>
+				<p class="text-wrap">“The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough,<br>you can do. Anything. As long as you believe.”</p>
 				<br>
 				<footer class="blockquote-footer">Bob Ross on <cite>"The Joy of Painting"</cite></footer>
 			</blockquote>
@@ -95,7 +97,7 @@
 
 	<!-- Courses section -->
 
-	<div class="courses container-fluid" id="start">
+	<div class="courses container-fluid" id="#start">
 		<h2>Start learning</h2>
 		<div class="courses-boxes flex">
 			<div class="course-box">
@@ -158,19 +160,23 @@
 
 	<!-- Thesis section	 -->
 
-	<div class="thesis container-fluid flex">
-		<h2>Thesis exhibit</h2>
-		<video src="./resources/videos/thesis.mp4" controls><h3>Reimagine urban</h3>
-					<p>Fluff that up. I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people. How to paint. That's easy. What to paint. That's much harder.
-</p>
-		</video>
-		<div>
-			<img src="./resources/images/thesis-fisma.jpg" alt="">
-			<h3>Fisma: Design and Prototype</h3>
-			<p>Designer showcase of new prototype product</p>
-			<img src="./resources/images/thesis-now-and-then.jpg" alt="">
-			<h3>Now and then</h3>
-			<p>Research study about New York</p>
+	<div class="thesis container-fluid">
+		<h2 class="text-center">Thesis exhibit</h2>
+		<div class="flex" id="thesis">
+			<div class="d-flex flex-column">
+			<video src="./resources/videos/thesis.mp4" controls autoplay loop></video>	
+				<h3>Reimagine urban</h3>
+				<p>Fluff that up. I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people. How to paint. That's easy. What to paint. That's much harder.
+				</p>
+			</div>
+			<div class="d-flex flex-column">
+				<img src="./resources/images/thesis-fisma.jpg" alt="">
+				<h3>Fisma: Design and Prototype</h3>
+				<p>Designer showcase of new prototype product</p>
+				<img src="./resources/images/thesis-now-and-then.jpg" alt="">
+				<h3>Now and then</h3>
+				<p>Research study about New York</p>
+			</div>
 		</div>
 	</div>
 

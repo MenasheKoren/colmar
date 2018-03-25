@@ -155,10 +155,21 @@ button a:hover {
 
 .course-box-text {
 	padding: 1rem 1rem 1.5rem;
-	/* 	display: flex;
-	flex-flow: column wrap; */
+	
 }
 
 .course-box img {
 	height: auto;
+}
+
+/* Thesis section */
+.thesis {
+	width: 100%
+}
+#thesis {
+	flex-direction: row;
+	
+}
+video {
+	width: 60%;
 }
