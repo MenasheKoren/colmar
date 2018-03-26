@@ -122,15 +122,14 @@ button a:hover {
 }
 
 .information-feature,
-thesis-feature {
+.thesis-feature {
 	width: 60%;
 	margin: 2rem 1.5rem;
 }
 
 video {
-	object-fit: contain;
+  width: 100%;
 }
-
 
 .information-feature h2,
 .thesis-feature h2 {
