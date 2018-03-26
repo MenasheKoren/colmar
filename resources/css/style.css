@@ -109,8 +109,14 @@ button a:hover {
 .information ul img,
 .thesis ul img {
 	height: auto;
-	/* 	width: 35%; */
-/* 	margin: 1rem; */
+}
+
+.information ul li:last-child {
+	background-color: lightgray;
+}
+
+.thesis ul li:first-child {
+	background-color: lightgray;
 }
 
 .image-container {
@@ -120,11 +126,12 @@ button a:hover {
 
 .image-container img {
 	width: 100%;
-	
 }
+
 #thesis .d-flex ul {
-  width: 100%;
+	width: 100%;
 }
+
 .information-text,
 .thesis-text {
 	flex-direction: column;
