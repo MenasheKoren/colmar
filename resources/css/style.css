@@ -66,8 +66,7 @@ nav li {
 	font-weight: bolder;
 }
 
-.jumbotron img,
-video {
+.jumbotron img {
 	width: 60%;
 	margin: 2rem 1.5rem;
 }
@@ -124,8 +123,10 @@ button a:hover {
 
 .information-feature,
 thesis-feature {
+	width: 60%;
 	margin: 2rem 1.5rem;
 }
+
 
 .information-feature h2,
 .thesis-feature h2 {
