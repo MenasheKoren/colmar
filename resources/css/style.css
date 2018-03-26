@@ -128,7 +128,7 @@ thesis-feature {
 }
 
 video {
-	object-fit: con;
+	object-fit: contain;
 }
 
 
@@ -175,13 +175,6 @@ video {
 
 /* Thesis section */
 
-/* .thesis {
-	width: 100%
-}
-
-#thesis {
-	flex-direction: row;
-} */
 
 /* Footer section */
 
