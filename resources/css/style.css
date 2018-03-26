@@ -127,6 +127,10 @@ thesis-feature {
 	margin: 2rem 1.5rem;
 }
 
+video {
+	object-fit: con;
+}
+
 
 .information-feature h2,
 .thesis-feature h2 {
@@ -171,13 +175,13 @@ thesis-feature {
 
 /* Thesis section */
 
-.thesis {
+/* .thesis {
 	width: 100%
 }
 
 #thesis {
 	flex-direction: row;
-}
+} */
 
 /* Footer section */
 
