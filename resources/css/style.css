@@ -99,7 +99,6 @@ button a:hover {
 	margin: 2rem 1.5rem;
 }
 
-
 .information li {
 	display: flex;
 	flex-direction: row;
@@ -126,6 +125,7 @@ button a:hover {
 	margin-top: 2rem;
 	margin-bottom: 1.5rem;
 }
+
 .blockquote-footer {
 	justify-content: space-between;
 	margin-bottom: 2rem;
@@ -155,7 +155,6 @@ button a:hover {
 
 .course-box-text {
 	padding: 1rem 1rem 1.5rem;
-	
 }
 
 .course-box img {
@@ -163,13 +162,31 @@ button a:hover {
 }
 
 /* Thesis section */
+
 .thesis {
 	width: 100%
 }
+
 #thesis {
 	flex-direction: row;
-	
 }
+
 video {
 	width: 60%;
+}
+
+/* Footer section */
+
+#footer {
+	margin: 1rem 1.5rem;
+}
+
+/* .footer {
+	word-spacing: .25rem;
+} */
+
+.footer a {
+	text-decoration: none;
+	color: black;
+	margin-left: .5rem;
 }
