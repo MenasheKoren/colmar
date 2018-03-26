@@ -90,7 +90,7 @@ button a:hover {
 	text-decoration: none;
 }
 
-/* Information  section */
+/* Information and Thesis sections */
 
 .information ul,
 .thesis ul {
@@ -109,8 +109,16 @@ button a:hover {
 .information ul img,
 .thesis ul img {
 	height: auto;
-	width: 35%;
+	/* 	width: 35%; */
 	margin: 1rem;
+}
+
+.image-container {
+	width: 35%;
+}
+
+.image-container img {
+	width: 100%;
 }
 
 .information-text,
@@ -128,7 +136,7 @@ button a:hover {
 }
 
 video {
-  width: 100%;
+	width: 100%;
 }
 
 .information-feature h2,
@@ -173,7 +181,6 @@ video {
 }
 
 /* Thesis section */
-
 
 /* Footer section */
 
