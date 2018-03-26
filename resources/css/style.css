@@ -66,7 +66,8 @@ nav li {
 	font-weight: bolder;
 }
 
-.jumbotron img {
+.jumbotron img,
+video {
 	width: 60%;
 	margin: 2rem 1.5rem;
 }
@@ -92,36 +93,42 @@ button a:hover {
 
 /* Information section */
 
-.information ul {
+.information ul,
+.thesis ul {
 	width: 40%;
 	display: flex;
 	flex-direction: column;
 	margin: 2rem 1.5rem;
 }
 
-.information li {
+.information li,
+.thesis li {
 	display: flex;
 	flex-direction: row;
 }
 
-.information ul img {
+.information ul img,
+.thesis ul img {
 	height: auto;
 	width: 35%;
 	margin: 1rem;
 }
 
-.information-text {
+.information-text,
+.thesis-text {
 	flex-direction: column;
 	justify-content: center;
 	margin: .5rem auto;
 	width: 65%;
 }
 
-.information-feature {
+.information-feature,
+thesis-feature {
 	margin: 2rem 1.5rem;
 }
 
-.information-feature h2 {
+.information-feature h2,
+.thesis-feature h2 {
 	margin-top: 2rem;
 	margin-bottom: 1.5rem;
 }
@@ -171,19 +178,11 @@ button a:hover {
 	flex-direction: row;
 }
 
-video {
-	width: 60%;
-}
-
 /* Footer section */
 
 #footer {
 	margin: 1rem 1.5rem;
 }
-
-/* .footer {
-	word-spacing: .25rem;
-} */
 
 .footer a {
 	text-decoration: none;
