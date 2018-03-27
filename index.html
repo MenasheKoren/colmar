@@ -11,13 +11,14 @@
 	<title>Colmar Academy</title>
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 </head>
 
 <body>
 
 	<!-- Nav section -->
-
-	<nav class="navbar fixed-top bg-white">
+<!-- Desktop nav -->
+	<nav class="navbar navbar-default fixed-top bg-white d-none d-sm-flex" id="navigation">
 		<div class="logo">
 			<img src="./resources/images/ic-logo.svg" alt="logo">
 			<h4 id="logo-text">COLMAR<span id="grey-color">ACADEMY</span></h4>
@@ -38,6 +39,24 @@
 		</ul>
 	</nav>
 
+<!-- 	Mobile navbar	 -->
+	<nav class="navbar navbar-default fixed-top bg-white d-flex d-sm-none" id="mobile-navigation">
+		<div class="logo">
+			<img src="./resources/images/ic-logo.svg" alt="logo">
+		</div>
+		<ul class="nav justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link" href="#"><img src="./resources/images/ic-on-campus.svg" alt=""></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><img src="./resources/images/ic-online.svg" alt=""></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><img src="./resources/images/ic-login.svg" alt=""></a>
+			</li>
+		</ul>
+	</nav>
+	
 	<!-- Jumbotron section -->
 
 	<div class="jumbotron container-fluid flex">
@@ -65,23 +84,19 @@
 		<ul>
 			<li>
 				<div class="image-container"><img src="./resources/images/information-orientation.jpg" alt=""></div>
-
 				<div class="information-text flex">
 					<h2>Orientation date</h2>
 					<p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
 					<a href="#">Read more</a>
 				</div>
-
 			</li>
 			<li>
 				<div class="image-container"><img src="./resources/images/information-campus.jpg" alt=""></div>
-
 				<div class="information-text flex">
 					<h2>Our campus</h2>
 					<p>Find which campus is close by you</p>
 					<a href="#">Read more</a>
 				</div>
-
 			</li>
 			<li>
 				<div class="image-container"><img src="./resources/images/information-guest-lecture.jpg" alt="">
@@ -91,7 +106,6 @@
 					<p>Join a keynote with Oliver Sack about music in medical treatment</p>
 					<a href="#">Read more</a>
 				</div>
-
 			</li>
 		</ul>
 	</div>
@@ -108,7 +122,6 @@
 					<p>COURSES</p>
 					<p>Web Development, Mobile Development, iOT, APIs</p>
 				</div>
-
 			</div>
 			<div class="course-box">
 				<img src="./resources/images/course-computer-art.jpg" alt="">
@@ -117,7 +130,6 @@
 					<p>COURSES</p>
 					<p>Imaging &amp; Design, Web Design,<br> Motion Graphics &amp; Visual Effects, Computer Animation</p>
 				</div>
-
 			</div>
 			<div class="course-box">
 				<img src="./resources/images/course-design.jpg" alt="">
@@ -126,7 +138,6 @@
 					<p>COURSES</p>
 					<p>User Experience Design, User Research, Visual Design</p>
 				</div>
-
 			</div>
 			<div class="course-box">
 				<img src="./resources/images/course-data.jpg" alt="">
@@ -135,7 +146,6 @@
 					<p>COURSES</p>
 					<p>Data Science, Big Data, SQL, Data Visualization</p>
 				</div>
-
 			</div>
 			<div class="course-box">
 				<img src="./resources/images/course-business.jpg" alt="">
@@ -144,7 +154,6 @@
 					<p>COURSES</p>
 					<p>Product Development, Business Development, Startup</p>
 				</div>
-
 			</div>
 			<div class="course-box">
 				<img src="./resources/images/course-marketing.jpg" alt="">
@@ -153,10 +162,8 @@
 					<p>COURSES</p>
 					<p>Analytics, Content Marketing, Mobile Marketing</p>
 				</div>
-
 			</div>
 		</div>
-
 	</div>
 
 	<!-- Thesis section	 -->
@@ -170,13 +177,11 @@
 					<h2>Reimagine urban</h2>
 					<p class="text-wrap">Fluff that up. I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people.<br>How to paint. That's easy. What to paint. That's much harder.</p>
 				</blockquote>
-
 			</div>
 			<div class="d-flex flex-column">
 				<ul>
 					<li>
 						<div class="image-container"><img src="./resources/images/thesis-fisma.jpg" alt=""></div>
-
 						<div class="thesis-text flex">
 							<h2>Fisma: Design and Prototype</h2>
 							<p>Designer showcase of new prototype product</p>
@@ -184,7 +189,6 @@
 					</li>
 					<li>
 						<div class="image-container"><img src="./resources/images/thesis-now-and-then.jpg" alt=""></div>
-
 						<div class="thesis-text flex">
 							<h2>Now and then</h2>
 							<p>Research study about New York</p>
