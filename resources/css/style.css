@@ -17,6 +17,9 @@ nav {
   padding: 1rem 1.5rem; }
   nav a {
     color: black; }
+  nav li {
+    display: inline;
+    margin-left: 1rem; }
 
 .logo {
   display: inline-flex;
@@ -31,10 +34,7 @@ nav {
 #grey-color {
   color: gray; }
 
-nav li {
-  display: inline;
-  margin-left: 1rem; }
-
+nav
 #mobile-navigation {
   visibility: hidden; }
 
@@ -69,14 +69,14 @@ button {
   .information ul img,
   .thesis ul img {
     height: auto; }
-  .information ul li:last-child,
-  .thesis ul li:last-child {
-    background-color: lightgray; }
 
 .information li,
 .thesis li {
   display: flex;
   flex-direction: row; }
+
+.information ul li:last-child {
+  background-color: lightgray; }
 
 .thesis ul li:first-child {
   background-color: lightgray; }
