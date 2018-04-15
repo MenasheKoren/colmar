@@ -1,179 +1,233 @@
 /* Universal styles */
+
 html {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .flex {
-  display: flex; }
+  display: flex;
+}
 
 .lead {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /* Nav section */
+
 nav {
   justify-content: space-between;
   align-content: center;
   background-color: white;
   height: 4rem;
-  padding: 1rem 1.5rem; }
-  nav a {
-    color: black; }
-  nav li {
-    display: inline;
-    margin-left: 1rem; }
+  padding: 1rem 1.5rem;
+}
+
+nav a {
+  color: black;
+}
+
+nav li {
+  display: inline;
+  margin-left: 1rem;
+}
 
 .logo {
   display: inline-flex;
   flex-direction: row;
-  align-content: center; }
-  .logo img {
-    height: 2rem; }
+  align-content: center;
+}
+
+.logo img {
+  height: 2rem;
+}
 
 #logo-text {
-  height: 1rem; }
+  height: 1rem;
+}
 
 #grey-color {
-  color: gray; }
+  color: gray;
+}
 
-nav
-#mobile-navigation {
-  visibility: hidden; }
+nav #mobile-navigation {
+  visibility: hidden;
+}
 
 /* Jumbotron section */
+
 .jumbotron.diplay-4 {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 .jumbotron img {
   width: 60%;
-  margin: 2rem 1.5rem; }
+  margin: 2rem 1.5rem;
+}
 
 .learn.flex {
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+}
 
 button {
-  background-color: #373737; }
-  button a {
-    color: white;
-    font-weight: bold;
-    font-padding: .5rem; }
-  button a:hover {
-    text-decoration: none; }
+  background-color: #373737;
+}
+
+button a {
+  color: white;
+  font-weight: bold;
+  font-padding: .5rem;
+}
+
+button a:hover {
+  text-decoration: none;
+}
 
 /* Information and Thesis sections */
+
 .information ul,
 .thesis ul {
   width: 40%;
   display: flex;
   flex-direction: column;
-  margin: 2rem 1.5rem; }
-  .information ul img,
-  .thesis ul img {
-    height: auto; }
+  margin: 2rem 1.5rem;
+}
+
+.information ul img,
+.thesis ul img {
+  height: auto;
+}
 
 .information li,
 .thesis li {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+}
 
 .information ul li:last-child {
-  background-color: lightgray; }
+  background-color: lightgray;
+}
 
 .thesis ul li:first-child {
-  background-color: lightgray; }
+  background-color: lightgray;
+}
 
 .image-container {
   width: 35%;
-  margin: 1rem; }
-  .image-container img {
-    width: 100%; }
+  margin: 1rem;
+}
+
+.image-container img {
+  width: 100%;
+}
 
 #thesis .d-flex ul {
-  width: 100%; }
+  width: 100%;
+}
 
 .information-text,
 .thesis-text {
   flex-direction: column;
   justify-content: center;
   margin: .5rem;
-  width: 65%; }
+  width: 65%;
+}
 
 .information-feature,
 .thesis-feature {
   width: 60%;
-  margin: 2rem 1.5rem; }
-  .information-feature h2,
-  .thesis-feature h2 {
-    margin-top: 2rem;
-    margin-bottom: 1.5rem; }
+  margin: 2rem 1.5rem;
+}
+
+.information-feature h2,
+.thesis-feature h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
 
 video {
-  width: 100%; }
+  width: 100%;
+}
 
 .blockquote-footer {
   justify-content: space-between;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 /* Courses section */
+
 .courses {
   background-color: grey;
-  padding: 2rem 4.5rem; }
-  .courses h2 {
-    text-align: center;
-    margin-bottom: 2rem; }
+  padding: 2rem 4.5rem;
+}
+
+.courses h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
 .courses-boxes {
   flex-flow: row wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .course-box {
   background-color: white;
-  margin: 1rem; }
-  .course-box img {
-    height: auto; }
+  margin: 1rem;
+}
+
+.course-box img {
+  height: auto;
+}
 
 .course-box-text {
-  padding: 1rem 1rem 1.5rem; }
+  padding: 1rem 1rem 1.5rem;
+}
 
 /* Footer section */
+
 #footer {
-  margin: 1rem 1.5rem; }
+  margin: 1rem 1.5rem;
+}
 
 .footer a {
   text-decoration: none;
   color: black;
-  margin-left: .5rem; }
+  margin-left: .5rem;
+}
 
 @media screen and (max-width: 600px) {
-  /* Navbar	 */
   #navigation {
-    display: none; }
-
+    display: none;
+  }
   #mobile-navigation {
-    visibility: visible; }
-
-  /* Jumbotron */
+    visibility: visible;
+  }
   .learn.flex,
   .course-box img,
   .course-box p,
+  .information.feature,
   .thesis blockquote,
   .thesis ul {
-    display: none; }
-
+    display: none;
+  }
   .courses,
   .information {
-    background-color: white; }
-
+    background-color: white;
+  }
   .course-box-text {
     background-color: lightgray;
-    font-weight: bold; }
-
+    font-weight: bold;
+  }
   .flex {
     display: flex;
-    flex-direction: column; }
-
+    flex-direction: column;
+  }
   img {
     width: 100%;
     height: auto;
-    object-fit: contain; } }
+    object-fit: contain;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
