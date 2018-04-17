@@ -151,20 +151,23 @@ video {
 
   img, video, body {
     width: 100%;
-    height: auto; }
+    height: auto;
+    margin: 0;
+    padding: 0; }
 
   .course-box img,
   .course-box p,
   .information-feature,
   .thesis blockquote,
-  .thesis ul {
+  .thesis ul,
+  footer span {
     display: none; }
 
-  .information-text p {
-    wrap: nowrap; }
+  .information-text {
+    flex-direction: column; }
 
   .courses,
-  .information {
+  .information li {
     display: flex;
     flex-direction: column;
     background-color: white; }
