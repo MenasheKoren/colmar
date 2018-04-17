@@ -71,6 +71,7 @@ nav {
 .jumbotron img {
 	width: 60%;
 	margin: 2rem 1.5rem;
+	align-self: center;
 }
 
 .learn.flex {
@@ -170,6 +171,7 @@ video {
 }
 }
 
+
 .courses-boxes {
 	flex-flow: row wrap;
 	justify-content: space-between;
@@ -229,14 +231,20 @@ video {
 	}
 	img.container, .information ul, .information ul li .image-container, .thesis-feature {
   width: 100%;
-		height: auto;
 }
+	.information ul li .image-container{
+		height: 15rem;
+overflow: hidden;
+	}
 	.courses,
 	.information li {
 		display: flex;
 		flex-direction: column;
 		background-color: white;
 
+	}
+	.information ul li:last-child {
+  background-color: white;
 	}
 	.course-box-text {
 		background-color: lightgray;
