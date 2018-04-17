@@ -227,6 +227,10 @@ video {
 	.information-text {
 		flex-direction: column;
 	}
+	img.container, .information ul, .information ul li .image-container, .thesis-feature {
+  width: 100%;
+		height: auto;
+}
 	.courses,
 	.information li {
 		display: flex;
