@@ -212,11 +212,14 @@ video {
 	#mobile-navigation {
 		visibility: visible;
 	}
-	img, video, body {
+	body {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	
+	img, video {
 		width: 100%;
 		height: auto;
-		margin: 0;
-		padding: 0;
 	}
 	.course-box img,
 	.course-box p,
@@ -226,6 +229,9 @@ video {
 	footer span,{
 		display: none;
 	}
+	
+	
+	
 	.information-text {
 		flex-direction: column;
 	}
