@@ -212,15 +212,19 @@ video {
 	#mobile-navigation {
 		visibility: visible;
 	}
-	body {
-		margin-left: 1rem;
-		margin-right: 1rem;
+	
+	html{
+		margin: auto;
 	}
 	
+	
 	img, video {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
+		object-fit: contain;
+		overflow: hidden;
 	}
+	
 	.course-box img,
 	.course-box p,
 	.information-feature,
@@ -234,13 +238,17 @@ video {
 	
 	.information-text {
 		flex-direction: column;
+		margin-left: 2rem;
 	}
+	
 	img.container, .information ul, .information ul li .image-container, .thesis-feature {
   width: 100%;
 }
 	.information ul li .image-container{
 		height: 15rem;
-overflow: hidden;
+		overflow: hidden;
+		max-width: 500px;
+		margin-right: 1rem;
 	}
 	.courses,
 	.information li {
@@ -255,6 +263,7 @@ overflow: hidden;
 	.course-box-text {
 		background-color: lightgray;
 		font-weight: bold;
+		padding: 1rem 1rem 1.5rem 1rem;
 	}
 	.flex {
 		display: flex;

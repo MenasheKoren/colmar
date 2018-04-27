@@ -1,7 +1,7 @@
 /* Universal styles */
 html {
   font-size: 16px; }
- 
+
 .flex {
   display: flex; }
 
@@ -150,11 +150,14 @@ video {
   #mobile-navigation {
     visibility: visible; }
 
-  img, video, body {
-    width: 100%;
+  html {
+    margin: auto; }
+
+  img, video {
+    max-width: 100%;
     height: auto;
-    margin: 0;
-    padding: 0; }
+    object-fit: contain;
+    overflow: hidden; }
 
   .course-box img,
   .course-box p,
@@ -165,14 +168,17 @@ video {
     display: none; }
 
   .information-text {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-left: 2rem; }
 
   img.container, .information ul, .information ul li .image-container, .thesis-feature {
     width: 100%; }
 
   .information ul li .image-container {
     height: 15rem;
-    overflow: hidden; }
+    overflow: hidden;
+    max-width: 500px;
+    margin-right: 1rem; }
 
   .courses,
   .information li {
@@ -185,7 +191,8 @@ video {
 
   .course-box-text {
     background-color: lightgray;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: 1rem 1rem 1.5rem 1rem; }
 
   .flex {
     display: flex;
