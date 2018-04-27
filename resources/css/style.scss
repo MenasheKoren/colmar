@@ -215,6 +215,7 @@ video {
 	
 	html{
 		margin: auto;
+		overflow: hidden;
 	}
 	
 	
@@ -247,7 +248,7 @@ video {
 	.information ul li .image-container{
 		height: 15rem;
 		overflow: hidden;
-		max-width: 500px;
+		max-width: 480px;
 		margin-right: 1rem;
 	}
 	.courses,
